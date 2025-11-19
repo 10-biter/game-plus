@@ -6,9 +6,9 @@
 
 enum MyEnum {
     //% block="one"
-    One,
+    Win,
     //% block="two"
-    Two
+    Lose
 }
 
 /**
@@ -23,7 +23,7 @@ namespace cleanGame {
      * @param e describe parameter here
      */
     //% block
-    export function foo(n: number, s: string, e: MyEnum): void {
+    export function gameOver(over: MyEnum): void {
         // Add code here
     }
 
