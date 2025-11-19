@@ -36,14 +36,4 @@ namespace cleanGame {
         return value <= 1 ? value : fib(value -1) + fib(value - 2);
     }
 
-
-    /**
- * Render a boolean as a down/up toggle
- */
-    //% block="$down"
-    //% down.shadow="toggleDownUp"
-    export function downUp(down: boolean): boolean {
-        return down;
-    }
-
 }
