@@ -14,7 +14,7 @@ enum MyEnum {
 /**
  * Custom blocks
  */
-//% weight=100 color=#173d6e icon="/uf101"
+//% weight=100 color=#173d6e icon=""
 namespace cleanGame {
     /**
      * TODO: describe your function here
