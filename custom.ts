@@ -25,11 +25,12 @@ namespace cleanGame {
     //% block
     export function gameOver(over: string): void {
         if (over = "win") {
-            music.play(music.melodyPlayable(music.powerDown), music.PlaybackMode.InBackground)
+            music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.InBackground)
+            game.splash("you win")
+        }
+        if (over = "Lose") {
+            music.play(music.melodyPlayable(music.powerDown), music.PlaybackMode.UntilDone)
             game.splash("you lose")
-        } else {
-        music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.   InBackground)
-        game.splash("you win!")
         }
     }
 
