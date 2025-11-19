@@ -23,8 +23,14 @@ namespace cleanGame {
      * @param e describe parameter here
      */
     //% block
-    export function gameOver(over: MyEnum): void {
-        // Add code here
+    export function gameOver(over: string): void {
+        if (over = "win") {
+            music.play(music.melodyPlayable(music.powerDown), music.PlaybackMode.InBackground)
+            game.splash("you lose")
+        } else {
+        music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.   InBackground)
+        game.splash("you win!")
+        }
     }
 
     /**
