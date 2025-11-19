@@ -24,6 +24,8 @@ namespace cleanGame {
      */
     //% block
     export function gameOver(): void {
+        music.play(music.tonePlayable(Note.C, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
+        music.play(music.tonePlayable(Note.G, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
         music.play(music.tonePlayable(Note.E, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
         game.splash("GAME OVER")
         game.reset()
