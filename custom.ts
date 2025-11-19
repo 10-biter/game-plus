@@ -24,7 +24,7 @@ namespace cleanGame {
      */
     //% block
     export function gameOver(): void {
-        music.ringTone(Note.C)
+        music.play(music.tonePlayable(Note.E, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
     }
 
     /**
