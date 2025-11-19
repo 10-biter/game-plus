@@ -46,12 +46,4 @@ namespace cleanGame {
         return down;
     }
 
-    /**
-     * Render a boolean as an up/down toggle
-     */
-    //% block="$up"
-    //% up.shadow="toggleUpDown"
-    export function upDown(up: boolean): boolean {
-        return up;
-    }
 }
