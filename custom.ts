@@ -31,7 +31,7 @@ namespace cleanGame {
         game.reset()
     }
 
-    export function createSprite(): void {
+        export function createSprite(): void {
         let mySprite = sprites.create(img`
             . . . . . . . . . . . . . . . .
             . . . . . . . . . . . . . . . .
