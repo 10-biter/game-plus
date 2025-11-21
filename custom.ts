@@ -44,7 +44,8 @@ namespace cleanGame {
  */
     //% block
     export function gameOverLose(): void {
-        music.play(music.melodyPlayable(music.wawawawaa), music.PlaybackMode.UntilDone)
+        music.play(music.melodyPlayable(music.wawawawaa), music.PlaybackMode.InBackground)
+        game.showLongText("you lose!!!", DialogLayout.Center)
     }
 
     /**
