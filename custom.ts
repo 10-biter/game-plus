@@ -116,7 +116,11 @@ namespace cleanGame {
 
 
 
-
+    /**
+     * TODO: describe your function here
+     * @param value describe value here, eg: 5
+     */
+    //% block
     export function yes(value: number): boolean {
         return true
     }
