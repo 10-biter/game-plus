@@ -31,6 +31,23 @@ namespace cleanGame {
         game.reset()
     }
 
+
+
+
+
+
+    /**
+ * TODO: describe your function here
+ * @param n describe parameter here, eg: 5
+ * @param s describe parameter here, eg: "Hello"
+ * @param e describe parameter here
+ */
+    //% block
+    export function gameOver_lose(): void {
+        music.play(music.melodyPlayable(music.wawawawaa), music.PlaybackMode.UntilDone)
+    }
+
+
     export function createSprite(): void {
         let mySprite = sprites.create(img`
             . . . . . . . . . . . . . . . .
