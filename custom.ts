@@ -121,7 +121,7 @@ namespace cleanGame {
      * @param value describe value here, eg: 5
      */
     //% block
-    export function yes(value: number): boolean {
+    export function yes(): boolean {
         return true
     }
 
