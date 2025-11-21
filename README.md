@@ -2,7 +2,9 @@
 
 
 > Open this page at [https://10-biter.github.io/game-plus/](https://10-biter.github.io/game-plus/)
-
+'''blocks
+    CleanGame.gameOver
+'''
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
