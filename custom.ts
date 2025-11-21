@@ -101,6 +101,7 @@ namespace cleanGame {
             . . . f 1 f . f 1 f . . . . . .
             . . . f 1 f . f 1 f . . . . . .
         `, SpriteKind.Player)
+        controller.moveSprite(mySprite)
     }
 
     /**
@@ -123,6 +124,21 @@ namespace cleanGame {
     //% block
     export function yes(): boolean {
         return true
+    }
+
+
+
+
+
+
+
+    /**
+ * TODO: describe your function here
+ * @param value describe value here, eg: 5
+ */
+    //% block
+    export function no(): boolean {
+        return false
     }
 
 }
