@@ -45,6 +45,32 @@ namespace cleanGame {
     //% block
     export function gameOverLose(): void {
         music.play(music.melodyPlayable(music.wawawawaa), music.PlaybackMode.InBackground)
+        game.setDialogFrame(img`
+            333333333333333333333333
+            3dddddddddddddddddddddd3
+            b3dddddddddddddddddddd3b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            b3333333333333333333333b
+            bb33333333333333333333bb
+            bccccccccccccccccccccccb
+            cccccccccccccccccccccccc
+        `)
         game.showLongText("you lose!!!", DialogLayout.Center)
     }
 
