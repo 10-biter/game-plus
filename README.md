@@ -2,9 +2,8 @@
 
 
 > Open this page at [https://10-biter.github.io/game-plus/](https://10-biter.github.io/game-plus/)
-'''blocks
-    CleanGame.gameOver
-'''
+see this on:https://turbowarp.org/editor?project_url=https://extensions.turbowarp.org/samples/Moving+Around+with+Pointer+Lock.sb3&fps=60&offscreen
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
