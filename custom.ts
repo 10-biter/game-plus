@@ -72,6 +72,7 @@ namespace cleanGame {
             cccccccccccccccccccccccc
         `)
         game.showLongText("you lose!!!", DialogLayout.Center)
+        game.reset()
     }
 
     /**
