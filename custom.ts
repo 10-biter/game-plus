@@ -1,9 +1,3 @@
-
-/**
-* Use this file to define custom functions and blocks.
-* Read more at https://arcade.makecode.com/blocks/custom
-*/
-
 enum MyEnum {
     //% block="Win"
     Win,
@@ -11,17 +5,9 @@ enum MyEnum {
     Lose
 }
 
-/**
- * Custom blocks
- */
-//% weight=100 color=#173d6e icon=""
+
+//% color=#173d6e icon=""
 namespace cleanGame {
-    /**
-     * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "Hello"
-     * @param e describe parameter here
-     */
     //% block
     export function gameOver(): void {
         music.play(music.tonePlayable(Note.C, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
@@ -36,12 +22,6 @@ namespace cleanGame {
 
 
 
-    /**
- * TODO: describe your function here
- * @param n describe parameter here, eg: 5
- * @param s describe parameter here, eg: "Hello"
- * @param e describe parameter here
- */
     //% block
     export function gameOverLose(): void {
         music.play(music.melodyPlayable(music.wawawawaa), music.PlaybackMode.InBackground)
@@ -75,12 +55,6 @@ namespace cleanGame {
         game.reset()
     }
 
-    /**
- * TODO: describe your function here
- * @param n describe parameter here, eg: 5
- * @param s describe parameter here, eg: "Hello"
- * @param e describe parameter here
- */
     //% block
     export function createSprite(): void {
         let mySprite = sprites.create(img`
@@ -109,10 +83,7 @@ namespace cleanGame {
 
 
 
-    /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
-     */
+
     //% block
     export function yes(): boolean {
         return true
@@ -124,10 +95,7 @@ namespace cleanGame {
 
 
 
-    /**
- * TODO: describe your function here
- * @param value describe value here, eg: 5
- */
+
     //% block
     export function no(): boolean {
         return false
