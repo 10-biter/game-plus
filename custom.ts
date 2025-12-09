@@ -1,9 +1,4 @@
-enum MyEnum {
-    //% block="Win"
-    Win,
-    //% block="lose"
-    Lose
-}
+
 
 
 //% color=#173d6e icon=""
