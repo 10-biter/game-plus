@@ -1,9 +1,14 @@
 
 
 
-//% color=#173d6e icon=""
 namespace cleanGame {
+    //%groups="bolleans, gameover, sprite"
+
+
+
+
     //% block
+    //%group="gameover"
     export function gameOver(): void {
         music.play(music.tonePlayable(Note.C, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
         music.play(music.tonePlayable(Note.G, music.beat(BeatFraction.Half)), music.PlaybackMode.InBackground)
@@ -18,6 +23,7 @@ namespace cleanGame {
 
 
     //% block
+    //%group="gameover"
     export function gameOverLose(): void {
         music.play(music.melodyPlayable(music.wawawawaa), music.PlaybackMode.InBackground)
         game.setDialogFrame(img`
@@ -51,6 +57,7 @@ namespace cleanGame {
     }
 
     //% block
+    //%group="sprites"
     export function createSprite(): void {
         let mySprite = sprites.create(img`
             . . . . . . . . . . . . . . . .
@@ -80,6 +87,7 @@ namespace cleanGame {
 
 
     //% block
+    //%group="bolleans"
     export function yes(): boolean {
         return true
     }
@@ -92,6 +100,7 @@ namespace cleanGame {
 
 
     //% block
+    //%group="bolleans"
     export function no(): boolean {
         return false
     }
