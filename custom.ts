@@ -124,11 +124,6 @@ namespace cleanGame {
 
 
 
-    export function setPlatformerModeIn(s:Sprite): void {
-
-    }
-
-
 
 
 
