@@ -115,26 +115,17 @@ namespace cleanGame {
 
     //% block
     //%group="sprites"
-    export function createSprite(): void {
-        let mySprite = sprites.create(img`
-            . . . . . . . . . . . . . . . .
-            . . . . . . . . . . . . . . . .
-            . . . f f f f f f f . . . . . .
-            . f f 1 1 1 1 1 1 1 f . . . . .
-            . f 1 1 1 1 1 1 1 1 1 f . . . .
-            . f 1 1 f 1 1 f 1 1 1 f . . . .
-            . f 1 1 f 1 1 f 1 1 1 f . . . .
-            . f 1 1 1 1 1 1 1 1 1 f . . . .
-            . f 1 1 1 1 1 1 1 1 1 f . . . .
-            . f 1 1 1 1 1 1 1 1 1 f . . . .
-            . . f f 1 1 1 1 1 f f . . . . .
-            . . . f 1 f f f 1 f . . . . . .
-            . . . f 1 f . f 1 f . . . . . .
-            . . . f 1 f . f 1 f . . . . . .
-            . . . f 1 f . f 1 f . . . . . .
-            . . . f 1 f . f 1 f . . . . . .
-        `, SpriteKind.Player)
+    //%i.shadow=Screen_image_picker
+    export function createSprite(i:Image): void {
+        let mySprite = sprites.create(i, SpriteKind.Player)
         controller.moveSprite(mySprite)
+    }
+
+
+
+
+    export function setPlatformerModeIn(s:Sprite): void {
+
     }
 
 
