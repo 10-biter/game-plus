@@ -1,7 +1,7 @@
 
 
 
-namespace cleanGame {
+namespace gamePlus {
     //%groups="bolleans, gameover, sprite"
 
 
@@ -108,6 +108,7 @@ namespace cleanGame {
                 bccccccccccccccccccccccb
                 cccccccccccccccccccccccc
             `)
+            effects.melt.startScreenEffect()
             game.showLongText("you lose!!!", DialogLayout.Center)
             game.reset()
         }
