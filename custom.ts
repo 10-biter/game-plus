@@ -273,14 +273,15 @@ namespace gamePlus {
 
 
 
-
-
-
     //% block
-    export function aEvent(handler: () => void) {
-        
+    export function randomYesOrNo(): boolean {
+        let randNoYes = randint(0, 1)
+        if (randNoYes = 0) {
+            return false
+        } else {
+            return true
+        }
     }
-
 
 
 
