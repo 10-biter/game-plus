@@ -276,6 +276,16 @@ namespace gamePlus {
 
 
 
+    //% block
+    export function aEvent(handler: () => void) {
+        
+    }
+
+
+
+
+
+
 
 
     
