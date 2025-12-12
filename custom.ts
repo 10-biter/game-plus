@@ -274,6 +274,21 @@ namespace gamePlus {
 
 
 
+    //block
+    export function setSpritePlatformerMode(sprite:Sprite): void {
+        controller.moveSprite(sprite, 100, 0)
+        scene.cameraFollowSprite(sprite)
+        let GRAVITI = 500
+        sprite.ay = GRAVITI 
+        controller.A.onEvent(ControllerButtonEvent.Pressed, function() {
+            sprite.vy = GRAVITI - 300
+        })
+        
+    }
+
+
+
+
 
 
 
