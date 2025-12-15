@@ -276,6 +276,7 @@ namespace gamePlus {
 
     //%block
     //%group="sprites"
+    //% sprite.defl=mySprite
     export function setSpritePlatformerMode(sprite:Sprite): void {
         controller.moveSprite(sprite, 100, 0)
         scene.cameraFollowSprite(sprite)
