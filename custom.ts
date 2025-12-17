@@ -1,5 +1,7 @@
 
 
+
+
 //% color=#42036b icon="\uf192"
 namespace gamePlus {
     //%groups="bolleans, gameover, sprite"
@@ -274,9 +276,6 @@ namespace gamePlus {
 
 
 
-    //% block
-    //% group="bolleans"
-
 
 
 
@@ -293,6 +292,33 @@ namespace gamePlus {
             sprite.vy = GRAVITI - 300
         })
         
+    }
+
+
+
+    //%block="move $s left/right/up/down: $pos with speed $speed evry $ms ms"
+    //%sprite.defl="mySprite"
+    //%group="sprties"
+    //%ms.shadow="timePicker"
+    export function move(s:Sprite,
+     pos:string,
+     speed:number,
+      ms?:number): void {
+        
+        if (false) {
+            
+        } else {
+            if (pos == "up") {
+                s.vy = (0 - speed)
+            } else if (pos == "down") {
+                s.vy = (speed)
+            } else if (pos == "right") {
+                s.vx = (speed)
+            } else if (pos == "left") {
+                s.vx = (0 - speed)
+
+            }
+        }
     }
 
 
