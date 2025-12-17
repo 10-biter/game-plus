@@ -1,9 +1,8 @@
 
 
-
+//% color=#42036b icon="\uf192"
 namespace gamePlus {
     //%groups="bolleans, gameover, sprite"
-    //% color=#42036b icon="\uf192"
 
 
 
