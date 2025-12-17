@@ -297,13 +297,12 @@ namespace gamePlus {
 
 
     //%block="move $s left/right/up/down: $pos with speed $speed evry $ms ms"
-    //%sprite.defl="mySprite"
+    //% s.defl="mySprite"
     //%group="sprites"
     //%ms.shadow="timePicker"
     export function move(s:Sprite,
      pos:string,
-     speed:number,
-      ms?:number): void {
+     speed:number): void {
         
         if (false) {
             
