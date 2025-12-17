@@ -3,6 +3,7 @@
 
 namespace gamePlus {
     //%groups="bolleans, gameover, sprite"
+    //% color=#42036b icon="\uf192"
 
 
 
@@ -270,6 +271,13 @@ namespace gamePlus {
     export function no(): boolean {
         return false
     }
+
+
+
+
+    //% block
+    //% group="bolleans"
+
 
 
 
