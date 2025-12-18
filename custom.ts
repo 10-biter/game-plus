@@ -321,6 +321,40 @@ namespace gamePlus {
     }
 
 
+    //%block="folow just with $xy with speed $speed sprite $spr otherSprite $otherSpr"
+    export function folowJustWith(xy:string, speed:number, spr:Sprite, otherSpr:Sprite): void {
+        let spriteX = spr.x
+        let spriteY = spr.y
+        if (speed == 0) {
+            if (xy == "x") {
+                spr.follow(otherSpr)
+                game.onUpdate(function() {
+                    spr.y = (spriteY)
+                })
+
+            } else if (xy == "y") {
+                spr.follow(otherSpr)
+                game.onUpdate(function () {
+                    spr.x = (spriteX)
+                })
+                
+            }
+        } else if (speed != 0) {
+            if (xy == "x") {
+                spr.follow(otherSpr, speed)
+                game.onUpdate(function () {
+                    spr.y = (spriteY)
+                })
+
+            } else if (xy == "y") {
+                spr.follow(otherSpr, speed)
+                game.onUpdate(function () {
+                    spr.x = (spriteX)
+                })
+        }
+    }
+
+
 
 
 
@@ -331,4 +365,5 @@ namespace gamePlus {
 
     
 
+}
 }
