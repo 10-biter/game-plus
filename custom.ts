@@ -322,6 +322,7 @@ namespace gamePlus {
 
 
     //%block="folow just with $xy with speed $speed sprite $spr otherSprite $otherSpr"
+    //%spr.defl="mySprite"
     export function folowJustWith(xy:string, speed:number, spr:Sprite, otherSpr:Sprite): void {
         let spriteX = spr.x
         let spriteY = spr.y
