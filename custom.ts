@@ -296,7 +296,7 @@ namespace gamePlus {
 
 
 
-    //% blockId="move $s left/right/up/down: $pos with speed $speed evry $ms ms"
+    //% block="move $s left/right/up/down: $pos with speed $speed evry $ms ms"
     //% s.defl="mySprite"
     //%group="sprites"
     //%ms.shadow="timePicker"
