@@ -14,7 +14,7 @@ let ball = sprites.create(img`
 gamePlus.move(ball, "up", 30)
 gamePlus.move(ball, "right", 30)
 ball.setBounceOnWall(true)
-gamePlus.folowJustWith("x", 100, padlle, ball)
+gamePlus.folowJustWith("x", 70, padlle, ball)
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function(sprite: Sprite, otherSprite: Sprite) {
     ball.setVelocity(-30, -30)
 })
